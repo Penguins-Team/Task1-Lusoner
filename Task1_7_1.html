@@ -7,6 +7,7 @@
 		*{margin:0;padding:0;font-family: "Microsoft YaHei";}
 		ul li{list-style: none;}
 		body{width:1280px;margin:0 auto;}
+
 		.head{height:36px;padding:10px 10px 10px 10px;color:#8b8a91;}
 		.head img{float:left;}
 		.head p{float: left;margin-left: 10px;line-height: 36px;font-family: "SimHei";font-size: 21px;color: black; }
@@ -22,7 +23,10 @@
 		.cover{width:1281px;height:854px;background-color: black;top:0;opacity: 0.5;}
 		.bannerclick{height:64px;width:331px;background: #e74f4d;top: 423px;left:120px;}
 		.bannerclick p{text-align: center;line-height:64px;font-size: 30px;}
-		.select{height:250px;}
+		.select{height:235px;position: relative;bottom:165px;background: #ffffff;width:1281px;}
+		.select img{margin:40px 135px;}
+		.select p{float:left;width:155px;padding:0 80px;font-size:14px;text-align:center;color:#bcb8b6;}
+		.borderleft{border-left: 1px solid #bcb8b6;}
 	</style>
 </head>
 <body>
@@ -31,7 +35,7 @@
 		<p>新世界</p>
 		<ul >
 			<li class="show">首页</li>
-			<li>最新活动</li>
+			<li >最新活动</li>
 			<li>项目介绍</li>
 			<li>爱心社区</li>
 			<li>关于我们</li>
@@ -52,10 +56,13 @@
 		<img src="img/1_7selectflag.png" alt="">
 		<img src="img/1_7selectflower.png" alt="">
 		<img src="img/1_7selectblock.png" alt="">
-		<p>打造全新世界观，让你更爱你的生活</p>
-		<p>丰富多彩的公益活动，发挥新世界的主人公意识</p>
-		<p>时尚的新理念，超前体验未知的生活</p>
-		<p>完善的培养机制，培养你的全新世界观</p>
+		<ul>
+			<li><p >打造全新世界观，让你更爱你的生活</p></li>
+			<li><p class="borderleft">丰富多彩的公益活动，发挥新世界的主人公意识</p></li>
+			<li><p class="borderleft">时尚的新理念，超前体验未知的生活</p></li>
+			<li><p class="borderleft">完善的培养机制，培养你的全新世界观</p></li>
+		</ul>
 	</div>
+	<div class="know"></div>
 </body>
 </html>
