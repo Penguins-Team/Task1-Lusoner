@@ -4,17 +4,25 @@
 <head>
 	<title></title>
 	<style type="text/css">
-		*{margin:0;padding:0;}
+		*{margin:0;padding:0;font-family: "Microsoft YaHei";}
 		ul li{list-style: none;}
 		body{width:1280px;margin:0 auto;}
 		.head{height:36px;padding:10px 10px 10px 10px;color:#8b8a91;}
 		.head img{float:left;}
 		.head p{float: left;margin-left: 10px;line-height: 36px;font-family: "SimHei";font-size: 21px;color: black; }
 		.head ul{float: right;line-height: 36px;}
-		.head li{float: left;margin:0 15px;padding:0 10px 6px;font-family: "Microsoft YaHei";font-size:14px;}
+		.head li{float: left;margin:0 15px;padding:0 10px 6px;font-size:14px;}
 		.show{border-bottom:4px solid red;color:#e74f4d;}
 		.head li img{position: relative;top:10px;}
 		.login{color:red;}
+		.banner{position: relative;}
+		.banner h2,.banner h6,.banner div{position: absolute;color:#ffffff;}
+		.banner h2{font-size: 60px;top: 217px;left:120px;font-weight: normal;}
+		.banner h6{font-size:21px;top: 307px;left:120px;font-weight: normal;width:300px;line-height: 2em;}
+		.cover{width:1281px;height:854px;background-color: black;top:0;opacity: 0.5;}
+		.bannerclick{height:64px;width:331px;background: #e74f4d;top: 423px;left:120px;}
+		.bannerclick p{text-align: center;line-height:64px;font-size: 30px;}
+		.select{height:250px;}
 	</style>
 </head>
 <body>
@@ -30,11 +38,24 @@
 			<li class="login"><img src="img/head_login.png">登录</li>
 		</ul>
 	</div>
-	<div>
+	<div class="banner">
 		<img src="img/1_7banner.png"/>
-		<p>Time of the life</p>
-		<p>新时代，年轻的人们让我们一起体验新生活，享受新生活</p>
-		<p>开始体验</p>
+		<div class="cover"></div>
+		<h2>Time of the life</h2>
+		<h6>新时代，年轻的人们让我们一起体验新生活，享受新生活</h6>
+		<div class="bannerclick">
+		<p>开始体验</p>	
+		</div>
+	</div>
+	<div class="select">
+		<img src="img/1_7selectcycle.png" alt="">
+		<img src="img/1_7selectflag.png" alt="">
+		<img src="img/1_7selectflower.png" alt="">
+		<img src="img/1_7selectblock.png" alt="">
+		<p>打造全新世界观，让你更爱你的生活</p>
+		<p>丰富多彩的公益活动，发挥新世界的主人公意识</p>
+		<p>时尚的新理念，超前体验未知的生活</p>
+		<p>完善的培养机制，培养你的全新世界观</p>
 	</div>
 </body>
 </html>
