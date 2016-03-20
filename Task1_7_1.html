@@ -31,7 +31,19 @@
 		.know img{position: relative;top: 85px;}
 		.know h2{font-family: "SimHei";font-size: 54px;font-weight:normal;}
 		.hideblock{height:128px;width:200px;}
-
+		.map{height:343px;position: relative;color:#ffffff;text-align: center;}
+		.mapcover{background: #e74f4d;height:343px;width:1281px;position: absolute;top:0;opacity: 0.2;}
+		.content{position: relative;top:-293px;font-size: 12px;text-align: center;}
+		.content h2{font-size: 21px;font-weight: normal;}
+		.search{font-size: 14px;}
+		.content li{float:left;color:#323333;background: #ffffff;width:225px;height:25px;text-align:left;margin-right: 30px;line-height: 25px;}
+		.mapmassage{margin-top: 50px;}
+		.mapmassage>li{padding:10px;}
+		.content>ul{margin-left:143px; }
+		.content img{float:right;}
+		.city li{padding:10px;margin-left:-10px;background: #e3e3e4;}
+		.city{margin-top: 10px;}
+		.search{text-align: center;display: inline-block;width:225px;height:45px;background: #be4e48;line-height: 45px;}
 	</style>
 </head>
 <body>
@@ -73,6 +85,30 @@
 		<img src="img/1_7knowbook.png" alt=""/>
 		<h2>关于新世界，你不知道的还有什么？</h2>
 	</div>
-	
+	<div class="map">
+		<img src="img/1_7map.png" alt="">
+		<div class="mapcover"></div>
+		<div class="content">
+			<h2>查找新世界城市信息</h2>
+			<span>——</span>
+			<p>每个城市有不同的活动信息，请自主查询您所需要了解的城市</p>
+			<ul class="mapmassage">
+				<li>中国<img src="img/1_7option.png" alt=""></li>
+				<li>省份<img src="img/1_7option.png" alt="">
+					<ul class="city">
+						<li>北京市</li>
+						<li>天津市</li>
+						<li>河北省</li>
+						<li>陕西省</li>
+						<li>内蒙古自治区</li>
+						<li>辽宁省</li>
+					</ul>
+				</li>
+				<li>城市<img src="img/1_7option.png" alt=""></li>
+			</ul>
+			<div class="search">搜索</div>
+		</div>
+		
+	</div>
 </body>
 </html>
